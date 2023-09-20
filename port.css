@@ -1,0 +1,93 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+
+#h1{
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+body{
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+button{
+    background-color: orchid;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+    
+}
+button:hover{
+    background-color:  white;
+    cursor: pointer;
+}
+    
+
+#navbar{
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 3% 5px 3%;
+    display: flex;
+    flex-direction: row
+    
+    
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-decoration: aliceblue;
+}
+#navbar a{
+    color: black;
+    margin-right: 20px;
+}
+#navbar a:hover{
+    color: white;
+}
+
+#info{
+    display: flex;
+    
+    margin: auto;
+    width: 60vw;
+    
+}
+#info .COLUMN{
+    width: 50%; 
+}
+#info img{
+    width: 85%;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    padding: 5%;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer .row1{
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+footer hr{
+    height: 20vw;
+    
+}
+footer .row2{
+    margin-top: 10px;
+}
+h5{
+    text-decoration: dashed;
+}
+footer .row2 .icons{
+    display: flex;
+    
+}
+footer .row2 .icons a{
+    color: aliceblue;
+    margin-left: 20px;
+}
